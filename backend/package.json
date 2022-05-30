@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
   "dependencies": {
     "jest": "^28.1.0"
   }
