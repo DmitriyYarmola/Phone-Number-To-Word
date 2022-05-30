@@ -7,7 +7,7 @@ class Controller {
 
     convertNumber(number) {
         return new Promise((resolve) => {
-            const numbers = number.split('')
+            const numbers = number.split('');
             const numberLetters = numbers.map((number) => this.phoneLetters[number]);
 
             const concat = (letters, current, ...args) => {
